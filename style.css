@@ -44,6 +44,8 @@ font-size: 35px;
   }
   .cup {
     width: 100%;
+    display: none;
+    opacity: 0;
   }
   .atm {
     width: 100%;

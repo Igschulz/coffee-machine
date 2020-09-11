@@ -14,19 +14,19 @@
     <div class="container">
       <div class="row">
         <div class="col-6 coffee-list d-flex flex-column justify-content-around">
-          <div class="coffee-item" onclick="makeCoffee('Американо', 50)">
+          <div class="coffee-item" onclick="makeCoffee('Американо', 50, this)">
             <img src="img/americano.png" alt="Американо">
             <span>Американо - 50руб.</span>
           </div>
-            <div class="coffee-item" onclick="makeCoffee('Капучино', 73)">
+            <div class="coffee-item" onclick="makeCoffee('Капучино', 73, this)">
               <img src="img/cappuccino.png" alt="Капучино">
               <span>Капучино - 73руб.</span>
             </div>
-            <div class="coffee-item" onclick="makeCoffee('Эспрессо', 61)">
+            <div class="coffee-item" onclick="makeCoffee('Эспрессо', 61, this)">
               <img src="img/espresso.png" alt="Эспрессо">
               <span>Эспрессо - 61руб.</span>
             </div>
-            <div class="coffee-item" onclick="makeCoffee('Латтэ', 112)">
+            <div class="coffee-item" onclick="makeCoffee('Латтэ', 112, this)">
               <img src="img/latte.jpg" alt="Латтэ">
               <span>Латтэ - 112руб.</span>
             </div>
@@ -37,7 +37,7 @@
                     <div class="display">
                       <p class="display-text">Выберите кофе</p> 
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0%; transition: none;">
                             </div>
                         </div>
                     </div>
@@ -67,6 +67,7 @@
     </div>
    
     <!-- Optional JavaScript -->
+    <!--<script src="lesson.js"></script>-->
     <script src="script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
