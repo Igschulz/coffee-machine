@@ -210,13 +210,13 @@ submit -
 //   coffeeOper.style.backgroundColor = "red";
 // }, 3000);
 
-let coffeeButtons = document.querySelectorAll(".coffee-item");
-for (let i = 0; i < coffeeButtons.length; i++) {
-  coffeeButtons[i].onclick = function() {    //возвращает объект
-  console.log(this);
-  // makeCoffee("Американо", 25, this)
-  };
-}
+// let coffeeButtons = document.querySelectorAll(".coffee-item");
+// for (let i = 0; i < coffeeButtons.length; i++) {
+//   coffeeButtons[i].onclick = function() {    //возвращает объект
+//   console.log(this);
+//   // makeCoffee("Американо", 25, this)
+//   };
+// }
 
 
 

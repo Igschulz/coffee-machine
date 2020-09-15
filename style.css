@@ -51,8 +51,9 @@ font-size: 35px;
     width: 100%;
   }
   .change-container {
-    min-height: 10rem;
-    background: lightgrey;
+    min-height: 8rem;
+    background-color: lightgrey;
     border: 2px solid black;
     border-radius: 0.5rem;
+    position: relative;
   }
