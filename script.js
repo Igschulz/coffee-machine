@@ -32,8 +32,10 @@ let state = "idle"; /* Переменная state отвечает за теку
           let cookingInterval = setInterval(function() {
            readyPercent++;
           // console.log(readyPercent);
+          requestAnimationFrame(function() {
           bigCup.style.opacity = readyPercent + "%";
           progressBar.style.width = readyPercent + "%";
+          });
           changeDisplayText(`Ваш ${name} готовится. ${readyPercent}%`);
                if(readyPercent >= 100) {
                  clearInterval(cookingInterval);
